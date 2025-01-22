@@ -1,5 +1,10 @@
 # DAWA
 Dies ist die Anleitung für die Lehrveranstaltung DAWA.
+Die wesentlichen Schritte werden hier beschrieben. Da die verwendete Software Änderungen unterliegt, gelten zusätzlich als Hilfestellung
+* Aktuelle Dokumentation von Docker: https://docs.docker.com/get-started/introduction/
+* Aktuelle Dokumentation von Git: https://git-scm.com/doc
+* Aktuelle Dokumentation von Superset: https://superset.apache.org/docs/quickstart/
+
 
 # Voraussetzungen
 * Installieren Sie Docker
