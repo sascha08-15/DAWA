@@ -18,6 +18,12 @@ Die wesentlichen Schritte werden hier beschrieben. Da die verwendete Software Ä
 * Mit ```git checkout tags/4.1.1``` verwenden Sie genau eine stabile Release-Version
 * Starten Sie Apache Superset mit ```docker compose -f docker-compose-image-tag.yml up```
 
-# Verfügbare Services umfassen nun:
-* Die Apache Superset umgebung auf URL http://localhost:8088
-* Eine Postgres Beispiel Datenbank
+# Verfügbare Services
+ ## Die Apache Superset Umgebung 
+ * Navigiere zur URL http://localhost:8088
+ * Einloggen mit username: admin und password: admin
+ ## Eine Postgres Beispiel Datenbank
+ * Connection String: postgresql://examples:XXXXXXXXXX@db:5432
+ * Username: examples
+ * Passwort: XXXXXXXXXX
+ * Port: 5432
