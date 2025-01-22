@@ -12,8 +12,11 @@ Die wesentlichen Schritte werden hier beschrieben. Da die verwendete Software Ä
 * Starten Sie Docker (Deamon oder Docker Desktop, je nachdem Ob Windows, Linux oder MacOS genutzt wird)
   
 # Apache Superset über Docker Compose starten
+* Starten Sie eine console/terminal und navigieren sie zum gewünschten Verzeichnis (z.B. ```mkdir DATA``` und ```cd ~/DAWA```)
 * Clonen Sie das Repository mit ```git clone https://github.com/apache/superset.git```
-* Starten Sie Apache Superset mit ```docker compose up```
+* Navigieren Sie in das neu erstelle Verzeichnis ```cd superset```
+* Mit ```git checkout tags/4.1.1``` verwenden Sie genau eine stabile Release-Version
+* Starten Sie Apache Superset mit ```docker compose -f docker-compose-image-tag.yml up```
 
 # Verfügbare Services umfassen nun:
 * Die Apache Superset umgebung auf URL http://localhost:8088
